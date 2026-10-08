@@ -1,0 +1,10 @@
+.fastagent
+AGENTS.md
+godot.md
+/tripo-out
+assets
+screenshots
+.godot
+*.import
+bin/
+obj/

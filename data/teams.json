@@ -1,0 +1,68 @@
+{
+  "teams": [
+    {
+      "id": "falcon",
+      "number": "01",
+      "name": "Falcon",
+      "paint": [0.9, 0.16, 0.18],
+      "driverId": "hale",
+      "car": { "speed": 70, "acceleration": 70, "handling": 70, "braking": 70 }
+    },
+    {
+      "id": "viper",
+      "number": "02",
+      "name": "Viper",
+      "paint": [0.16, 0.42, 0.95],
+      "driverId": "okonkwo",
+      "car": { "speed": 70, "acceleration": 70, "handling": 70, "braking": 70 }
+    },
+    {
+      "id": "nova",
+      "number": "03",
+      "name": "Nova",
+      "paint": [0.95, 0.78, 0.15],
+      "driverId": "berg",
+      "car": { "speed": 70, "acceleration": 70, "handling": 70, "braking": 70 }
+    },
+    {
+      "id": "pulse",
+      "number": "04",
+      "name": "Pulse",
+      "paint": [0.12, 0.72, 0.38],
+      "driverId": "sato",
+      "car": { "speed": 70, "acceleration": 70, "handling": 70, "braking": 70 }
+    },
+    {
+      "id": "drift",
+      "number": "05",
+      "name": "Drift",
+      "paint": [0.62, 0.28, 0.88],
+      "driverId": "nunez",
+      "car": { "speed": 70, "acceleration": 70, "handling": 70, "braking": 70 }
+    },
+    {
+      "id": "ember",
+      "number": "06",
+      "name": "Ember",
+      "paint": [0.95, 0.42, 0.12],
+      "driverId": "reid",
+      "car": { "speed": 70, "acceleration": 70, "handling": 70, "braking": 70 }
+    },
+    {
+      "id": "glacier",
+      "number": "07",
+      "name": "Glacier",
+      "paint": [0.78, 0.9, 0.95],
+      "driverId": "vogel",
+      "car": { "speed": 70, "acceleration": 70, "handling": 70, "braking": 70 }
+    },
+    {
+      "id": "shadow",
+      "number": "08",
+      "name": "Shadow",
+      "paint": [0.1, 0.1, 0.12],
+      "driverId": "adebayo",
+      "car": { "speed": 70, "acceleration": 70, "handling": 70, "braking": 70 }
+    }
+  ]
+}

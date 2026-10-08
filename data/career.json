@@ -1,0 +1,92 @@
+{
+  "drivers": [
+    {
+      "id": "hale",
+      "attack": 76,
+      "defend": 70,
+      "handling": 74,
+      "braking": 68,
+      "focus": 72,
+      "potential": 84,
+      "racesDone": 140,
+      "tiredness": 12
+    },
+    {
+      "id": "okonkwo",
+      "attack": 64,
+      "defend": 78,
+      "handling": 80,
+      "braking": 76,
+      "focus": 82,
+      "potential": 70,
+      "racesDone": 310,
+      "tiredness": 28
+    },
+    {
+      "id": "berg",
+      "attack": 58,
+      "defend": 60,
+      "handling": 62,
+      "braking": 55,
+      "focus": 66,
+      "potential": 78,
+      "racesDone": 40,
+      "tiredness": 4
+    },
+    {
+      "id": "sato",
+      "attack": 88,
+      "defend": 74,
+      "handling": 86,
+      "braking": 80,
+      "focus": 84,
+      "potential": 90,
+      "racesDone": 220,
+      "tiredness": 18
+    },
+    {
+      "id": "nunez",
+      "attack": 70,
+      "defend": 48,
+      "handling": 50,
+      "braking": 36,
+      "focus": 44,
+      "potential": 62,
+      "racesDone": 510,
+      "tiredness": 55
+    },
+    {
+      "id": "reid",
+      "attack": 80,
+      "defend": 66,
+      "handling": 72,
+      "braking": 64,
+      "focus": 60,
+      "potential": 74,
+      "racesDone": 180,
+      "tiredness": 22
+    },
+    {
+      "id": "vogel",
+      "attack": 55,
+      "defend": 72,
+      "handling": 68,
+      "braking": 74,
+      "focus": 77,
+      "potential": 66,
+      "racesDone": 90,
+      "tiredness": 8
+    },
+    {
+      "id": "adebayo",
+      "attack": 92,
+      "defend": 84,
+      "handling": 90,
+      "braking": 86,
+      "focus": 88,
+      "potential": 80,
+      "racesDone": 640,
+      "tiredness": 35
+    }
+  ]
+}

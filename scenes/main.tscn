@@ -1,0 +1,54 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/RaceSim.cs" id="1_o5qli"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_0wfyh"]
+sky_top_color = Color(0.28, 0.48, 0.82, 1)
+sky_horizon_color = Color(0.72, 0.8, 0.86, 1)
+ground_bottom_color = Color(0.18, 0.28, 0.16, 1)
+ground_horizon_color = Color(0.45, 0.5, 0.4, 1)
+
+[sub_resource type="Sky" id="Sky_sugp2"]
+sky_material = SubResource("ProceduralSkyMaterial_0wfyh")
+
+[sub_resource type="Environment" id="Environment_jyhfs"]
+background_mode = 2
+sky = SubResource("Sky_sugp2")
+ambient_light_source = 3
+ambient_light_energy = 0.85
+tonemap_mode = 2
+glow_enabled = true
+glow_intensity = 0.35
+glow_strength = 0.7
+glow_bloom = 0.05
+
+[node name="Main" type="Node3D" unique_id=1941030115]
+script = ExtResource("1_o5qli")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=148046528]
+environment = SubResource("Environment_jyhfs")
+
+[node name="Sun" type="DirectionalLight3D" parent="." unique_id=2049350066]
+transform = Transform3D(0.7880108, -0.48514786, 0.37903908, 0, 0.6156615, 0.7880107, -0.6156615, -0.62096095, 0.4851479, 0, 0, 0)
+light_energy = 1.45
+shadow_enabled = true
+directional_shadow_mode = 1
+directional_shadow_max_distance = 240.0
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=515727000]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 70, 20)
+current = true
+fov = 58.0
+
+[node name="HudLayer" type="CanvasLayer" parent="." unique_id=904552909]
+
+[node name="Hud" type="Label" parent="HudLayer" unique_id=925188314]
+offset_left = 24.0
+offset_top = 18.0
+offset_right = 24.0
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(0.96, 0.96, 0.94, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 6
+text = "APEX CIRCUIT"
